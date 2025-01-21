@@ -1,4 +1,4 @@
-package org.iesvdm.spring_boot_image_processing_service.controllers;
+package org.iesvdm.spring_boot_image_processing_service.repositories;
 
 import java.util.Optional;
 
