@@ -8,5 +8,6 @@ import org.springframework.data.jpa.repository.Query;
 
 public interface ImageRepository extends JpaRepository<Image, Long> {
 
-
+@NativeQuery("SELECT nextval('transform_req_sec')")
+    Integer getNextvalTransformReqSec();
 }
